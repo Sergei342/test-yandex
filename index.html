@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
    <header class="navigation">
     <div class="logo">
         <svg width="237" height="38" viewBox="0 0 237 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +50,7 @@
     <div class="layout4">
         <div class="tool">
             <div class="tool__icon">
-                <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="icon__tools" width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.1585 41.0959L0 21.9374V25.8513C0 26.8885 0.410959 27.8865 1.1546 28.6106L16.3992 43.8552C17.9256 45.3816 20.411 45.3816 21.9374 43.8552L34.09 31.7025C35.6164 30.1761 35.6164 27.6908 34.09 26.1644L19.1585 41.0959Z" fill="white" fill-opacity="0.7"/>
                 <path d="M16.3992 34.0704C17.1624 34.8337 18.1605 35.225 19.1585 35.225C20.1566 35.225 21.1546 34.8337 21.9178 34.0704L34.0704 21.9178C35.5969 20.3914 35.5969 17.9061 34.0704 16.3796L18.8258 1.13503C18.1018 0.410959 17.1037 0 16.0665 0H3.91389C1.76125 0 0 1.76125 0 3.91389V16.0665C0 17.1037 0.410959 18.1018 1.1546 18.8258L16.3992 34.0704ZM3.91389 3.91389H16.0665L31.3112 19.1585L19.1585 31.3112L3.91389 16.0665V3.91389Z" fill="white" fill-opacity="0.7"/>
                 <path d="M8.31703 10.7632C9.66802 10.7632 10.7632 9.66802 10.7632 8.31703C10.7632 6.96604 9.66802 5.87084 8.31703 5.87084C6.96604 5.87084 5.87084 6.96604 5.87084 8.31703C5.87084 9.66802 6.96604 10.7632 8.31703 10.7632Z" fill="white" fill-opacity="0.7"/>
@@ -61,11 +62,10 @@
         </div>
         <div class="tool">
             <div class="tool__icon">
-                <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19.1585 41.0959L0 21.9374V25.8513C0 26.8885 0.410959 27.8865 1.1546 28.6106L16.3992 43.8552C17.9256 45.3816 20.411 45.3816 21.9374 43.8552L34.09 31.7025C35.6164 30.1761 35.6164 27.6908 34.09 26.1644L19.1585 41.0959Z" fill="white" fill-opacity="0.7"/>
-                <path d="M16.3992 34.0704C17.1624 34.8337 18.1605 35.225 19.1585 35.225C20.1566 35.225 21.1546 34.8337 21.9178 34.0704L34.0704 21.9178C35.5969 20.3914 35.5969 17.9061 34.0704 16.3796L18.8258 1.13503C18.1018 0.410959 17.1037 0 16.0665 0H3.91389C1.76125 0 0 1.76125 0 3.91389V16.0665C0 17.1037 0.410959 18.1018 1.1546 18.8258L16.3992 34.0704ZM3.91389 3.91389H16.0665L31.3112 19.1585L19.1585 31.3112L3.91389 16.0665V3.91389Z" fill="white" fill-opacity="0.7"/>
-                <path d="M8.31703 10.7632C9.66802 10.7632 10.7632 9.66802 10.7632 8.31703C10.7632 6.96604 9.66802 5.87084 8.31703 5.87084C6.96604 5.87084 5.87084 6.96604 5.87084 8.31703C5.87084 9.66802 6.96604 10.7632 8.31703 10.7632Z" fill="white" fill-opacity="0.7"/>
-                </svg>
+                <svg class="icon__tools" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.5 22.5C25.4837 22.5 28.3452 21.3147 30.455 19.205C32.5647 17.0952 33.75 14.2337 33.75 11.25C33.75 8.26631 32.5647 5.40483 30.455 3.29505C28.3452 1.18526 25.4837 0 22.5 0C19.5163 0 16.6548 1.18526 14.545 3.29505C12.4353 5.40483 11.25 8.26631 11.25 11.25C11.25 14.2337 12.4353 17.0952 14.545 19.205C16.6548 21.3147 19.5163 22.5 22.5 22.5ZM30 11.25C30 13.2391 29.2098 15.1468 27.8033 16.5533C26.3968 17.9598 24.4891 18.75 22.5 18.75C20.5109 18.75 18.6032 17.9598 17.1967 16.5533C15.7902 15.1468 15 13.2391 15 11.25C15 9.26088 15.7902 7.35322 17.1967 5.9467C18.6032 4.54018 20.5109 3.75 22.5 3.75C24.4891 3.75 26.3968 4.54018 27.8033 5.9467C29.2098 7.35322 30 9.26088 30 11.25ZM45 41.25C45 45 41.25 45 41.25 45H3.75C3.75 45 0 45 0 41.25C0 37.5 3.75 26.25 22.5 26.25C41.25 26.25 45 37.5 45 41.25ZM41.25 41.235C41.2463 40.3125 40.6725 37.5375 38.13 34.995C35.685 32.55 31.0837 30 22.5 30C13.9125 30 9.315 32.55 6.87 34.995C4.3275 37.5375 3.7575 40.3125 3.75 41.235H41.25Z" fill="white" fill-opacity="0.7"/>
+                    </svg>
+                    
                 </div>
            
             
@@ -74,11 +74,10 @@
         </div>
         <div class="tool">
             <div class="tool__icon">
-                <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19.1585 41.0959L0 21.9374V25.8513C0 26.8885 0.410959 27.8865 1.1546 28.6106L16.3992 43.8552C17.9256 45.3816 20.411 45.3816 21.9374 43.8552L34.09 31.7025C35.6164 30.1761 35.6164 27.6908 34.09 26.1644L19.1585 41.0959Z" fill="white" fill-opacity="0.7"/>
-                <path d="M16.3992 34.0704C17.1624 34.8337 18.1605 35.225 19.1585 35.225C20.1566 35.225 21.1546 34.8337 21.9178 34.0704L34.0704 21.9178C35.5969 20.3914 35.5969 17.9061 34.0704 16.3796L18.8258 1.13503C18.1018 0.410959 17.1037 0 16.0665 0H3.91389C1.76125 0 0 1.76125 0 3.91389V16.0665C0 17.1037 0.410959 18.1018 1.1546 18.8258L16.3992 34.0704ZM3.91389 3.91389H16.0665L31.3112 19.1585L19.1585 31.3112L3.91389 16.0665V3.91389Z" fill="white" fill-opacity="0.7"/>
-                <path d="M8.31703 10.7632C9.66802 10.7632 10.7632 9.66802 10.7632 8.31703C10.7632 6.96604 9.66802 5.87084 8.31703 5.87084C6.96604 5.87084 5.87084 6.96604 5.87084 8.31703C5.87084 9.66802 6.96604 10.7632 8.31703 10.7632Z" fill="white" fill-opacity="0.7"/>
-                </svg>
+                <svg class="icon__tools" width="51" height="49" viewBox="0 0 51 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.4175 3.42423C24.1375 1.52526 26.8622 1.52526 27.5844 3.42423L32.2418 16.3255C32.4043 16.7458 32.6904 17.1069 33.0624 17.3612C33.4344 17.6155 33.8747 17.751 34.3253 17.7498H45.7709C47.8858 17.7498 48.8083 20.3822 47.1456 21.6715L39.0007 28.9996C38.6359 29.2801 38.3693 29.6689 38.2391 30.1103C38.1089 30.5517 38.1219 31.023 38.2762 31.4566L41.2507 44.0631C41.9752 46.0881 39.6307 47.8273 37.8577 46.5808L26.7947 39.5609C26.4158 39.2947 25.964 39.1518 25.5009 39.1518C25.0379 39.1518 24.5861 39.2947 24.2072 39.5609L13.1441 46.5808C11.3734 47.8273 9.02668 46.0858 9.75117 44.0631L12.7256 31.4566C12.8799 31.023 12.8929 30.5517 12.7628 30.1103C12.6326 29.6689 12.366 29.2801 12.0011 28.9996L3.85626 21.6715C2.19128 20.3822 3.11827 17.7498 5.22874 17.7498H16.6743C17.125 17.7513 17.5655 17.6159 17.9375 17.3616C18.3095 17.1073 18.5956 16.746 18.7578 16.3255L23.4152 3.42423H23.4175Z" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
                 </div>
            
             
@@ -86,11 +85,11 @@
         </div>
         <div class="tool">
             <div class="tool__icon">
-                <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19.1585 41.0959L0 21.9374V25.8513C0 26.8885 0.410959 27.8865 1.1546 28.6106L16.3992 43.8552C17.9256 45.3816 20.411 45.3816 21.9374 43.8552L34.09 31.7025C35.6164 30.1761 35.6164 27.6908 34.09 26.1644L19.1585 41.0959Z" fill="white" fill-opacity="0.7"/>
-                <path d="M16.3992 34.0704C17.1624 34.8337 18.1605 35.225 19.1585 35.225C20.1566 35.225 21.1546 34.8337 21.9178 34.0704L34.0704 21.9178C35.5969 20.3914 35.5969 17.9061 34.0704 16.3796L18.8258 1.13503C18.1018 0.410959 17.1037 0 16.0665 0H3.91389C1.76125 0 0 1.76125 0 3.91389V16.0665C0 17.1037 0.410959 18.1018 1.1546 18.8258L16.3992 34.0704ZM3.91389 3.91389H16.0665L31.3112 19.1585L19.1585 31.3112L3.91389 16.0665V3.91389Z" fill="white" fill-opacity="0.7"/>
-                <path d="M8.31703 10.7632C9.66802 10.7632 10.7632 9.66802 10.7632 8.31703C10.7632 6.96604 9.66802 5.87084 8.31703 5.87084C6.96604 5.87084 5.87084 6.96604 5.87084 8.31703C5.87084 9.66802 6.96604 10.7632 8.31703 10.7632Z" fill="white" fill-opacity="0.7"/>
-                </svg>
+                <svg class="icon__tools" width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.5 47C36.9264 47 47 36.9264 47 24.5C47 12.0736 36.9264 2 24.5 2C12.0736 2 2 12.0736 2 24.5C2 36.9264 12.0736 47 24.5 47Z" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M31.25 33.5L25.8185 28.0685C24.9745 27.2248 24.5003 26.0804 24.5 24.887V11" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
                 </div>
            
             
@@ -98,11 +97,10 @@
         </div>
         <div class="tool">
             <div class="tool__icon">
-                <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19.1585 41.0959L0 21.9374V25.8513C0 26.8885 0.410959 27.8865 1.1546 28.6106L16.3992 43.8552C17.9256 45.3816 20.411 45.3816 21.9374 43.8552L34.09 31.7025C35.6164 30.1761 35.6164 27.6908 34.09 26.1644L19.1585 41.0959Z" fill="white" fill-opacity="0.7"/>
-                <path d="M16.3992 34.0704C17.1624 34.8337 18.1605 35.225 19.1585 35.225C20.1566 35.225 21.1546 34.8337 21.9178 34.0704L34.0704 21.9178C35.5969 20.3914 35.5969 17.9061 34.0704 16.3796L18.8258 1.13503C18.1018 0.410959 17.1037 0 16.0665 0H3.91389C1.76125 0 0 1.76125 0 3.91389V16.0665C0 17.1037 0.410959 18.1018 1.1546 18.8258L16.3992 34.0704ZM3.91389 3.91389H16.0665L31.3112 19.1585L19.1585 31.3112L3.91389 16.0665V3.91389Z" fill="white" fill-opacity="0.7"/>
-                <path d="M8.31703 10.7632C9.66802 10.7632 10.7632 9.66802 10.7632 8.31703C10.7632 6.96604 9.66802 5.87084 8.31703 5.87084C6.96604 5.87084 5.87084 6.96604 5.87084 8.31703C5.87084 9.66802 6.96604 10.7632 8.31703 10.7632Z" fill="white" fill-opacity="0.7"/>
-                </svg>
+                <svg class="icon__tools" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.48292 31.9896L9.84688 31.6254L9.47208 31.2723L6.58627 28.5537C5.57896 27.5311 6.29951 25.8081 7.73149 25.8081H17.5772C18.4703 25.8081 19.187 26.5248 19.187 27.4175V37.2612C19.187 38.6957 17.4621 39.4107 16.45 38.4067L13.7214 35.512L13.3682 35.1373L13.0041 35.5014L4.27483 44.2289C3.92505 44.5786 3.34492 44.5786 2.99515 44.2289L0.76229 41.9965C0.41257 41.6469 0.41257 41.067 0.76229 40.7174L0.762468 40.7172L9.48292 31.9896ZM35.5085 13.0014L35.1436 13.3662L35.5197 13.7194L38.4146 16.4384C39.4194 17.4513 38.7018 19.1831 37.2685 19.1831H27.4228C26.5297 19.1831 25.8131 18.4664 25.8131 17.5737V7.72998C25.8131 6.29548 27.5379 5.58052 28.55 6.58453L31.2786 9.47919L31.6318 9.8539L31.9959 9.48982L40.7252 0.762279C41.0749 0.412575 41.6551 0.412573 42.0049 0.762279L44.2377 2.9947C44.5874 3.34435 44.5874 3.9242 44.2377 4.27385L35.5085 13.0014ZM35.5191 31.2723L35.1444 31.6254L35.5083 31.9896L44.2375 40.726L44.2377 40.7261C44.5874 41.0758 44.5874 41.6556 44.2377 42.0053L42.0049 44.2377C41.6551 44.5874 41.0749 44.5874 40.7252 44.2377L31.9959 35.5102L31.6317 35.1461L31.2785 35.5208L28.5588 38.4067C27.5454 39.412 25.8131 38.6939 25.8131 37.2612V27.4175C25.8131 26.5248 26.5297 25.8081 27.4228 25.8081H37.2685C38.7037 25.8081 39.4182 27.5327 38.4143 28.5443L35.5191 31.2723ZM13.0041 9.48982L13.3683 9.85393L13.7215 9.47916L16.4412 6.5933C17.4562 5.58646 19.187 6.30832 19.187 7.72998V17.5737C19.187 18.4664 18.4703 19.1831 17.5772 19.1831H7.73149C6.29626 19.1831 5.58179 17.4585 6.58568 16.4469L9.4809 13.7189L9.85583 13.3656L9.49153 13.0014L0.76229 4.27385C0.41257 3.9242 0.41257 3.34435 0.76229 2.9947L2.99515 0.762279C3.34492 0.412574 3.92505 0.412573 4.27483 0.762279L13.0041 9.48982Z" fill="white" fill-opacity="0.7" stroke="#A29CE6"/>
+                    </svg>
+                    
                 </div>
            
             
@@ -122,7 +120,7 @@
         <div class="design">
             <img class="photo__available" width="302" height="120" src="/source/marketplace.png">
             <p class="title__design">Услуги дизайна</p>
-            <p>Набор услуг подбирается индвидуально в зависимости от потребности клиента</p>
+            <p class="text__available">Набор услуг подбирается индвидуально в зависимости от потребности клиента</p>
             <div class="details">
                 <p class="info__details">индивидуально</p>
                 <button class="bnt__available">Подробнее</button>
@@ -131,7 +129,7 @@
         <div class="design">
             <img class="photo__available" width="302" height="120" src="/source/marketplace.png">
             <p class="title__design">Для маркетплейсов</p>
-            <p>Запуск и ведение магазина Неограниченные консультации</p>
+            <p class="text__available">Запуск и ведение магазина Неограниченные консультации</p>
             <div class="details">
                 <p class="info__details">20000р/мес</p>
                 <button class="bnt__available">Подробнее</button>
@@ -141,7 +139,7 @@
             
             <img class="photo__available" width="302" height="120" src="/source/marketplace.png">
             <p class="title__design">Юридические услуги</p>
-            <p>Два любых договора
+            <p class="text__available">Два любых договора
                 Две юридические консультации</p>
             <div class="details">
                 <p class="info__details">12000р/мес</p>
@@ -155,15 +153,69 @@
     <h1 class="Faq__title">FAQ</h1>
     <div class="question">
         <div class="question1">
-            <span class="icon"></span>
+            <span class="icon"><svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_0_89)">
+                <rect x="30" y="30" width="30" height="30" rx="6" fill="#A29CE6"/>
+                </g>
+                <path d="M45.0713 38V45.0711M45.0713 52.1421V45.0711M45.0713 45.0711L38.0002 45.0711M45.0713 45.0711H52.1424" stroke="#FEFEFE" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                <filter id="filter0_d_0_89" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset/>
+                <feGaussianBlur stdDeviation="15"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_89"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_89" result="shape"/>
+                </filter>
+                </defs>
+                </svg>
+                </span>
             <h3 class="qstn1">Могу ли я заказать подписку с собственным набором услуг из каталога?</h3>
         </div>
         <div class="question1">
-            <span class="icon"></span>
+            <span class="icon"><svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_0_89)">
+                <rect x="30" y="30" width="30" height="30" rx="6" fill="#A29CE6"/>
+                </g>
+                <path d="M45.0713 38V45.0711M45.0713 52.1421V45.0711M45.0713 45.0711L38.0002 45.0711M45.0713 45.0711H52.1424" stroke="#FEFEFE" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                <filter id="filter0_d_0_89" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset/>
+                <feGaussianBlur stdDeviation="15"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_89"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_89" result="shape"/>
+                </filter>
+                </defs>
+                </svg>
+                </span>
             <h3 class="qstn2">Сохраняются ли неиспользованные услуги по истечении расчетного периода?</h3>
         </div>
         <div class="question1">
-            <span class="icon"></span>
+            <span class="icon"><svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_0_89)">
+                <rect x="30" y="30" width="30" height="30" rx="6" fill="#A29CE6"/>
+                </g>
+                <path d="M45.0713 38V45.0711M45.0713 52.1421V45.0711M45.0713 45.0711L38.0002 45.0711M45.0713 45.0711H52.1424" stroke="#FEFEFE" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                <filter id="filter0_d_0_89" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset/>
+                <feGaussianBlur stdDeviation="15"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_89"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_89" result="shape"/>
+                </filter>
+                </defs>
+                </svg>
+                </span>
             <h3 class="qstn3">При покупке подписки требуется 100% предоплата?</h3>
         </div>
     </div>
@@ -223,11 +275,13 @@
                         </span>     
     </div>
    </section>
+</div>
 
    <footer class="footer__enterpriese">
     <div class="layout3">
+       
         <div class="logo__enterprise">
-            <svg width="47" height="29" viewBox="0 0 47 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="logo__footer" width="47" height="29" viewBox="0 0 47 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="15" cy="14.5" rx="15" ry="14.5" fill="#30C63A"/>
                 <ellipse cx="32" cy="14.5" rx="15" ry="14.5" fill="#A9F4AC"/>
                 </svg>

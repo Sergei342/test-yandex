@@ -47,12 +47,27 @@ padding-bottom: 40px;
 }
 .tool__text { 
     text-align: center;
+     color: rgba(153, 153, 153, 1);
+     font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.07px;
+
+
+
+
 }
 
 .tool__icon { 
-    display: inline-block;
     
-    text-align: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    height: 120px;
+    width: 120px;
+    background: rgba(162, 156, 230, 1);
     line-height: 50px;
   height: 120px;
   width: 120px;
@@ -70,7 +85,7 @@ padding-bottom: 40px;
 .available__blocks { 
     display: flex;
     justify-content: space-between;
-    gap: 2px;
+    gap: 30px;
 }
 
 .question { 
@@ -162,6 +177,7 @@ opacity: 0px;
 .design { 
     width: 330px;
      box-shadow: 0px 0px 30px 0px #0000001A;
+     padding-bottom: 10px;
 
 
 gap: 0px;
@@ -172,14 +188,29 @@ opacity: 5px;
 
 .details { 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+   padding: 10px;
+}
+
+.text__available { 
+    padding: 16px 14px;
+}
+
+.info__details { 
+    
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+   
 }
 
 .question { 
     padding: 5px;
 }
 .question1{ 
-   
+    display: flex;
+    text-align: left;
     border-radius: 15px;
     box-shadow: 0px 0px 30px 0px #0000001A;
     padding: 5px;
@@ -273,4 +304,17 @@ footer {
 
 .question1 { 
     margin-bottom: 10px;
+}
+
+.icon__tools { 
+    display: flex;
+    align-content: center;
+}
+
+.logo__footer { 
+    padding-top: 45px;
+}
+
+.enterprise__title { 
+    padding-top: 45px;
 }
